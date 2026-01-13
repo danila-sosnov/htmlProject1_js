@@ -6,7 +6,6 @@ function()
     button.classList.toggle('active');
     
     const hasClass = button.classList.contains('active');
-    console.log('class:', hasClass);
 
     if(hasClass)
     {
@@ -18,4 +17,5 @@ function()
         button.textContent = 'Class is not active';
         button.style.backgroundColor = 'lightcoral';
     }
+
 })
